@@ -28,15 +28,39 @@ function MainClass::HandleEvents()
                 local company_event = GSEventCompanyNew.Convert(ev);
                 local company_id = company_event.GetCompanyID();
 
-                // Display a welcome message and rules for the new company
-                //Story.ShowMessage(company_id, "Here are our server commands.", "Commands");
+                // Create a new story page with your desired text
+                local page_id = Story.NewStoryPage(company_id, GSText(GSText.STR_PAGE3_TITLE),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE3_LINE1),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE3_LINE2),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE3_LINE3),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE3_LINE4),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE3_LINE5),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE3_LINE6),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE3_LINE7),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE3_LINE8),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE3_LINE9),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE3_LINE10)
+                );
 
-				Story.ShowMessage(company_id, "Here are our server commands:\n- Command 1\n- Command 2\n- Command 3", "Commands");
+                // Create a new story page with your desired text
+                local page_id = Story.NewStoryPage(company_id, GSText(GSText.STR_PAGE2_TITLE),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE2_LINE1),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE2_LINE2),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE2_LINE3),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE2_LINE4),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE2_LINE5),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE2_LINE6),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE2_LINE7),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE2_LINE8),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE2_LINE9),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE2_LINE10)
+                );                
 
+                // Show the newly created story page
+                if (page_id != -1) {
+                    Story.ShowMessage(company_id, GSText(GSText.STR_PAGE1_LINE1, GSText(GSText.STR_PAGE1_TITLE)));
+                }
 
-                Story.ShowMessage(company_id, "These are the rules for the server.", "Rules");
-                
-                Story.ShowMessage(company_id, "Welcome to the game!", "Welcome");
                 break;
             }
 

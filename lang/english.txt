@@ -1,27 +1,38 @@
-STR_PAGE1_TITLE    :WELCOME
-STR_PAGE1_LINE1    :Hello and welcome to the server
+STR_PAGE1_TITLE    :{RED}WELCOME TO MODRAIL
+STR_PAGE1_LINE1    :Hello and welcome to the ModRail test bed! 
+STR_PAGE1_LINE2    :
+STR_PAGE1_LINE3    :
+STR_PAGE1_LINE4    :
+STR_PAGE1_LINE5    :
+STR_PAGE1_LINE6    :
+STR_PAGE1_LINE7    :
+STR_PAGE1_LINE8    :
+STR_PAGE1_LINE9    :
+STR_PAGE1_LINE10   :
 
-STR_PAGE2_TITLE    :INTRODUCTION
+
+
+STR_PAGE2_TITLE    :{RED}RULES
 STR_PAGE2_LINE1    :Thank you for joining us, {COMPANY}!{}
 STR_PAGE2_LINE2    :
-STR_PAGE2_LINE3    :Explore our diverse range of services tailored just for you.
-STR_PAGE2_LINE4    :Your satisfaction is our utmost priority, always.
-STR_PAGE2_LINE5    :We strive to exceed your expectations at every turn.
-STR_PAGE2_LINE6    :Join us on this journey towards mutual success and growth.
-STR_PAGE2_LINE7    :Let's forge a partnership built on trust and reliability.
-STR_PAGE2_LINE8    :Together, we can achieve remarkable things.
-STR_PAGE2_LINE9    :Welcome once again to the SERVER_NAME family!
-STR_PAGE2_LINE10   :We're thrilled to have you on board.
+STR_PAGE2_LINE3    :While you're here feel free to play a normal game, I'll be experimenting with various settings over time as I plan to expand.
+STR_PAGE2_LINE4    :I would love to have you involved if you're interested please join our Discord Server https://discord.gg/jMadvcGwKu
+STR_PAGE2_LINE5    :
+STR_PAGE2_LINE6    :
+STR_PAGE2_LINE7    :
+STR_PAGE2_LINE8    :
+STR_PAGE2_LINE9    :
+STR_PAGE2_LINE10   :
 
-STR_PAGE3_TITLE    :GETTING STARTED
-STR_PAGE3_LINE1    :Ready to dive in, {COMPANY}?{}
-STR_PAGE3_LINE2    :Let's kickstart your experience with a tour of our platform.
-STR_PAGE3_LINE3    :Discover the tools and resources at your fingertips.
-STR_PAGE3_LINE4    :Our team is here to assist you every step of the way.
-STR_PAGE3_LINE5    :Feel free to reach out with any questions or concerns.
-STR_PAGE3_LINE6    :Maximize your productivity with our user-friendly interface.
-STR_PAGE3_LINE7    :Unlock the full potential of SERVER_NAME with our expert tips.
-STR_PAGE3_LINE8    :Stay updated with the latest news and developments.
-STR_PAGE3_LINE9    :Your journey towards success starts now!
-STR_PAGE3_LINE10   :Let's embark on this exciting adventure together.
+STR_PAGE3_TITLE    :{RED}MODRAIL COMMANDS
+STR_PAGE3_LINE1    :!admin or !report followed by a messsage will alert an admin on Discord that you need assistance.
+STR_PAGE3_LINE2    :
+STR_PAGE3_LINE3    :
+STR_PAGE3_LINE4    :
+STR_PAGE3_LINE5    :
+STR_PAGE3_LINE6    :
+STR_PAGE3_LINE7    :
+STR_PAGE3_LINE8    :
+STR_PAGE3_LINE9    :
+STR_PAGE3_LINE10   :
 

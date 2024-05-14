@@ -29,7 +29,12 @@ function MainClass::HandleEvents()
                 local company_id = company_event.GetCompanyID();
 
                 // Create a new story page with your desired text
-                local page_id = Story.NewStoryPage(company_id, GSText(GSText.STR_PAGE3_TITLE),
+                local PAGE_1 = Story.NewStoryPage(company_id, GSText(GSText.STR_PAGE1_TITLE),
+                    GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE1_LINE1)
+                );
+
+                // Create a new story page with your desired text
+                local PAGE_2 = Story.NewStoryPage(company_id, GSText(GSText.STR_PAGE3_TITLE),
                     GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE3_LINE1),
                     GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE3_LINE2),
                     GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE3_LINE3),
@@ -43,7 +48,7 @@ function MainClass::HandleEvents()
                 );
 
                 // Create a new story page with your desired text
-                local page_id = Story.NewStoryPage(company_id, GSText(GSText.STR_PAGE2_TITLE),
+                local PAGE_3 = Story.NewStoryPage(company_id, GSText(GSText.STR_PAGE2_TITLE),
                     GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE2_LINE1),
                     GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE2_LINE2),
                     GSStoryPage.SPET_TEXT, 0, GSText(GSText.STR_PAGE2_LINE3),
@@ -57,9 +62,9 @@ function MainClass::HandleEvents()
                 );                
 
                 // Show the newly created story page
-                if (page_id != -1) {
-                    Story.ShowMessage(company_id, GSText(GSText.STR_PAGE1_LINE1, GSText(GSText.STR_PAGE1_TITLE)));
-                }
+       
+                GSStoryPage.Show(PAGE_1)
+             
 
                 break;
             }

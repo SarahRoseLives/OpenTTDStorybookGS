@@ -1,0 +1,42 @@
+STR_RULES_TITLE    :Rules
+STR_RULES_LINE1   :Just be nice! This is a place to have fun and build fun stuff as a community.
+STR_RULES_LINE2   :
+STR_RULES_LINE3   :You don't need hand holding, do you?
+STR_RULES_LINE4   :
+STR_RULES_LINE5   :{RED} Just be Nice
+
+STR_BOT_COMMANDS_TITLE    :Bot Commands
+STR_BOT_COMMANDS_LINE1   :{PURPLE} ModTrack Discord Bot
+STR_BOT_COMMANDS_LINE2   :
+STR_BOT_COMMANDS_LINE3   :This is a work in progress bot being actively developed in python.
+STR_BOT_COMMANDS_LINE4   :You have find it here: https://github.com/SarahRoseLives/ModTrack
+STR_BOT_COMMANDS_LINE5   :
+STR_BOT_COMMANDS_LINE6   :{PURPLE} Current Commands
+STR_BOT_COMMANDS_LINE7   :
+STR_BOT_COMMANDS_LINE8   :!admin Your_admin_report_message_here
+STR_BOT_COMMANDS_LINE9   :!help Your_help_message_here
+STR_BOT_COMMANDS_LINE10  :
+STR_BOT_COMMANDS_LINE11  :* Also tied to Discord chat channel
+STR_BOT_COMMANDS_LINE12  :
+STR_BOT_COMMANDS_LINE13  :{PURPLE} Planned Features
+STR_BOT_COMMANDS_LINE14  :* Vote Kick and Vote Ban
+STR_BOT_COMMANDS_LINE15  :* Connect multiple OpenTTD servers
+STR_BOT_COMMANDS_LINE16  :* Query company statistics
+STR_BOT_COMMANDS_LINE17  :* RCon support
+STR_BOT_COMMANDS_LINE18  :* Track company names, stats and more
+STR_BOT_COMMANDS_LINE19  :* Link discord users or roles to in-game players? Maybe equate play time or in-game money to discord points?
+
+STR_WELCOME_TO_MODTRACK_TITLE    :Welcome to ModTrack
+STR_WELCOME_TO_MODTRACK_LINE1   :Hello, {COMPANY}!
+STR_WELCOME_TO_MODTRACK_LINE2   :
+STR_WELCOME_TO_MODTRACK_LINE3   :It's a pleasure to have you here on the ModTrack Public Development Server.
+STR_WELCOME_TO_MODTRACK_LINE4   :Here is where I'm testing some Gamescript and primarily my Discord bot ModTrack written in python.
+STR_WELCOME_TO_MODTRACK_LINE5   :You can find it here: https://github.com/SarahRoseLives/ModTrack
+STR_WELCOME_TO_MODTRACK_LINE6   :
+STR_WELCOME_TO_MODTRACK_LINE7   :I'm trying to start up a community and would love to have you join and even take part in development.
+STR_WELCOME_TO_MODTRACK_LINE8   :https://discord.gg/jMadvcGwKu
+STR_WELCOME_TO_MODTRACK_LINE9   :
+STR_WELCOME_TO_MODTRACK_LINE10  :Please be kind, and enjoy your stay!
+STR_WELCOME_TO_MODTRACK_LINE11  :
+STR_WELCOME_TO_MODTRACK_LINE12  :* Storybook Created with my StoryBook Generator here: https://github.com/SarahRoseLives/OpenTTDStorybookGS
+

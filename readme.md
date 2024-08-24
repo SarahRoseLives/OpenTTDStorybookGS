@@ -10,6 +10,8 @@ OpenTTDStoryBookGS is a game script designed to enhance your OpenTTD server expe
 - Provide rules, commands, or other information to players upon starting a new game.
 - Ongoing development to improve functionality and user experience.
 
+![UI GIF](https://github.com/SarahRoseLives/OpenTTDStorybookGS/blob/main/UI_demo.gif?raw=true)
+
 ## Usage
 
 Simply install the script on your OpenTTD server and configure the content you want to display in the storybook. Players will then be presented with this information when they create new in-game companies.
